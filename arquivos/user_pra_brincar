@@ -1,0 +1,174 @@
+appml1803
+ID: 6032087428025039 | Secret key: 2f4RrU5HuOUWJc7yMCvtXPSTrx3mpPhR
+
+Access Token:APP_USR-6032087428025039-041921-9907e87eed2350084593b3661e4e10f0-303962229
+
+User Id:303962229
+
+Nickname:FMG DISTRIBUIDORA
+
+Nome:Miria
+
+Sobrenome:Souza
+
+E-mail:distribuidorafmg2018@gmail.com
+
+Site:MLB
+
+{
+  "id": 303962229,
+  "nickname": "FMG DISTRIBUIDORA",
+  "registration_date": "2018-02-23T16:33:48.000-04:00",
+  "first_name": "Miria",
+  "last_name": "Souza",
+  "gender": "F",
+  "country_id": "BR",
+  "email": "distribuidorafmg2018@gmail.com",
+  "identification": {
+    "number": "86604074668",
+    "type": "CPF"
+  },
+  "internal_tags": [
+    "developer"
+  ],
+  "address": {
+    "address": "CAIXA POSTAL 135",
+    "city": "Lagoa da Prata",
+    "state": "BR-MG",
+    "zip_code": "35590000"
+  },
+  "phone": {
+    "area_code": null,
+    "extension": "",
+    "number": "37998059980",
+    "verified": false
+  },
+  "alternative_phone": {
+    "area_code": "",
+    "extension": "",
+    "number": ""
+  },
+  "user_type": "normal",
+  "tags": [
+    "normal",
+    "messages_as_seller",
+    "messages_as_buyer"
+  ],
+  "logo": null,
+  "points": 10,
+  "site_id": "MLB",
+  "permalink": "http://perfil.mercadolivre.com.br/FMG+DISTRIBUIDORA",
+  "shipping_modes": [
+    "custom",
+    "not_specified",
+    "me2"
+  ],
+  "seller_experience": "ADVANCED",
+  "bill_data": {
+    "accept_credit_note": null
+  },
+  "seller_reputation": {
+    "level_id": "5_green",
+    "power_seller_status": null,
+    "transactions": {
+      "canceled": 3,
+      "completed": 68,
+      "period": "historic",
+      "ratings": {
+        "negative": 0,
+        "neutral": 0,
+        "positive": 1
+      },
+      "total": 71
+    },
+    "metrics": {
+      "sales": {
+        "period": "60 months",
+        "completed": 68
+      },
+      "claims": {
+        "period": "60 months",
+        "rate": 0
+      },
+      "delayed_handling_time": {
+        "period": "60 months",
+        "rate": 0.0781
+      }
+    }
+  },
+  "buyer_reputation": {
+    "canceled_transactions": 0,
+    "tags": [],
+    "transactions": {
+      "canceled": {
+        "paid": null,
+        "total": null
+      },
+      "completed": null,
+      "not_yet_rated": {
+        "paid": null,
+        "total": null,
+        "units": null
+      },
+      "period": "historic",
+      "total": null,
+      "unrated": {
+        "paid": null,
+        "total": null
+      }
+    }
+  },
+  "status": {
+    "billing": {
+      "allow": true,
+      "codes": []
+    },
+    "buy": {
+      "allow": true,
+      "codes": [],
+      "immediate_payment": {
+        "reasons": [],
+        "required": false
+      }
+    },
+    "confirmed_email": false,
+    "shopping_cart": {
+      "buy": "allowed",
+      "sell": "allowed"
+    },
+    "immediate_payment": false,
+    "list": {
+      "allow": true,
+      "codes": [],
+      "immediate_payment": {
+        "reasons": [],
+        "required": false
+      }
+    },
+    "mercadoenvios": "not_accepted",
+    "mercadopago_account_type": "personal",
+    "mercadopago_tc_accepted": true,
+    "required_action": null,
+    "sell": {
+      "allow": true,
+      "codes": [],
+      "immediate_payment": {
+        "reasons": [],
+        "required": false
+      }
+    },
+    "site_status": "active",
+    "user_type": "complete_registration"
+  },
+  "secure_email": "msouza.8h9zbz@mail.mercadolivre.com",
+  "credit": {
+    "consumed": 0,
+    "credit_level_id": "MLB1",
+    "rank": "payer"
+  },
+  "context": {
+    "device": "web-desktop",
+    "flow": "normal",
+    "source": "mercadolibre"
+  }
+}

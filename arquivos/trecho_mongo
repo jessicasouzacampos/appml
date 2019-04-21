@@ -1,0 +1,30 @@
+mongodb.connect("mongodb://localhost:27017/appmldatabase", function (err, db) {
+   
+        if(err) {
+            throw err;
+
+        }else{
+            console.log('deu certo:')
+            var dbo = db.db("appmldatabase");
+            var query = { available_quantity:15 };
+            dbo.collection("Produtos").find(query).toArray(function(err, result) {
+                if (err) throw err;                
+                data = result;
+                data.id = "";
+                db.close();
+
+                meliObject.post(uri,data,[access],(error, response) =>{
+                    if(error){
+                        console.log('error');
+                    }
+                    
+                    if(response){
+                        console.log('ok inseri lá:'+JSON.parse(response));
+
+                    }    
+                    }) ;
+            });
+        }
+       
+                
+    });
